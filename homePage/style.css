@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #130f0f;
+}
+.main_box {
+  position: relative;
+  /* background: url("IMG/Restaurants.jpg") right no-repeat; */
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("IMG/Restaurants.jpg");
+  background-size: cover;
+  /* height: 100vh; */
+  background-attachment: fixed;
+  background-position: center;
+}
+.main_box h1 {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  font-weight: 900;
+  font-size: 70px;
+  color: lawngreen;
+}
+.main_box .sidebar_menu {
+  position: fixed;
+  /* justify-content: right; */
+  margin: auto property;
+  height: 100vh;
+  width: 280px;
+  left: -280px;
+  background: black;
+  box-shadow: 0px 0px 6px rgba(202, 194, 194, 0.5);
+  overflow: hidden;
+  transition: all 0.3s linear;
+  z-index: 999;
+  margin-top: -58px;
+}
+.sidebar_menu .logo {
+  /* position: absolute; */
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 2px 4px rgba(12, 12, 12, 0.5);
+}
+.sidebar_menu .logo a {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  right: 50px;
+  line-height: 60px;
+  text-decoration: none;
+}
+.sidebar_menu .menu {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  margin-top: -142px;
+}
+.sidebar_menu .menu li {
+  margin-top: 6px;
+  padding: 14px 20px;
+}
+.sidebar_menu .menu i {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 8px;
+}
+.sidebar_menu .menu a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidebar_menu .menu li:hover {
+  border-right: 1px solid #fff;
+  box-shadow: 0 0 4px white;
+}
+.sidebar_menu .social_media {
+  position: relative;
+  right: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.sidebar_menu .social_media i {
+  text-decoration: none;
+  padding: 5 0px;
+  color: #fff;
+  opacity: 0.6;
+  font-size: 20px;
+}
+.sidebar_menu .social_media i:hover {
+  opacity: 1;
+  transition: all 0.2s linear;
+  transform: scale(1.01);
+}
+#check {
+  display: none;
+}
+.main_box .btn_one i {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  right: 16px;
+  line-height: 60px;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.sidebar_menu .btn_two i {
+  font-size: 25px;
+  line-height: 60px;
+  position: relative;
+  right: 240px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.3s all linear;
+}
+.btn_one i:hover {
+  font-size: 29px;
+}
+.btn_two i:hover {
+  font-size: 24px;
+}
+#check:checked ~ .sidebar_menu {
+  right: 0;
+}
+#check:checked ~ .btn_one i {
+  opacity: 0;
+}
+#check:checked ~ .sidebar_menu .btn_two i {
+  opacity: 1;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(7, 7, 7); */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("IMG/img.jfif");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 50%;
+  height: 100vh;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.main h1 {
+  font-size: xx-large;
+  color: white;
+  margin: 140px 0 20px 0;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  /* left: 120%; */
+  transition: left 1s 0.5s;
+}
+.main .all-text span {
+  color: rgb(30, 255, 0);
+}
+
+/* .about:hover .main h1 {
+  left: 0;
+} */
+.btn button {
+  width: 150px;
+  height: 40px;
+  background-color: greenyellow;
+  border: 1px solid white;
+  font-size: large;
+  margin-top: 30px;
+}
+.main p {
+  color: white;
+  font-weight: 200px;
+  line-height: 23px;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  /* left: 120%; */
+  transition: left 1s 1s;
+}
+/* .about:hover .main p {
+  left: 0;
+} */
+.main .btn button {
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  /* left: 120%; */
+  transition: left 1s 1.5s;
+}
+/* .about:hover .main .btn button {
+  left: 0;
+} */
+.IMGDIV {
+  position: relative;
+  margin-right: 40px;
+}
+.IMG {
+  width: 400px;
+  height: 450px;
+  border-radius: 70px;
+  margin-left: 90px;
+}
+.IMGDIV .Rname {
+  position: absolute;
+  top: 370px;
+  left: 150px;
+  color: rgb(233, 137, 12);
+  font-weight: 600;
+  font-size: 50px;
+}
+.logo {
+  width: 50px;
+  height: 20px;
+  margin-top: -100px;
+  margin-left: -250px;
+}

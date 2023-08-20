@@ -1,0 +1,124 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  /* background-color: rgb(68, 64, 64); */
+}
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#contact-section {
+  background-color: aquamarine;
+  background-image: url(image/istockphoto-1441262452-170667a.webp) !important;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.6));
+  height: 100vh;
+  width: 100%;
+  /* padding-bottom: 2%; */
+  overflow: hidden;
+}
+#contact-section .container h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: rgb(238, 235, 235);
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+#contact-section .container p {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+
+  color: #fff;
+  /* letter-spacing: 3px; */
+}
+
+.contact-form i.fa {
+  font-size: 22px;
+  padding: 3%;
+  background-color: none;
+  margin: 2%;
+  border-radius: 80%;
+  border: 2px solid rgb(190, 190, 190);
+  color: rgb(190, 190, 190);
+}
+
+.contact-form i.fa:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  background-color: rgba(136, 133, 133, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  color: #fff;
+}
+textarea {
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  background-color: rgba(136, 133, 133, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+textarea::placeholder {
+  color: #fff;
+}
+.submit {
+  width: 40%;
+  background: none;
+  padding: 4px;
+  font-size: 13px;
+  outline: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 3%;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-right: 25px;
+}
+.submit:hover {
+  cursor: pointer;
+  border: 1px solid rgb(250, 194, 12);
+  color: gold;
+}
+.end {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(37, 36, 36);
+}
+@media (max-width: 768px) {
+  #contact-section .contact-form {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #contact-section .submit {
+    width: 60%;
+  }
+}

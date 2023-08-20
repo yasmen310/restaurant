@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+    <!-- https://boxicons.com/usage -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <span class="bg-animate"></span>
+      <span class="bg-animate2"></span>
+      <div class="form-box login">
+        <h4 class="animation" style="--i: 0; --j: 21">
+          مرحبا قم بتسجيل الدخول الي حسابك
+        </h4>
+        <form action="#" class="form">
+          <div class="input-box animation" style="--i: 1; --j: 22">
+            <input type="email" required />
+            <label>بريدك الالكتروني</label>
+            <!-- boxicons.com -->
+            <i class="bx bxs-envelope"></i>
+          </div>
+          <div class="input-box animation" style="--i: 1; --j: 23">
+            <input type="password" required />
+            <label>كلمه المرور</label>
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <button type="submit" class="btn animation" style="--i: 3; --j: 24">
+            تسجيل الدخول
+          </button>
+
+          <div class="admin">
+            <a
+              href="../admin/admin.html"
+              style="
+                text-decoration: none;
+                color: aqua;
+                font-size: 18px;
+                --i: 4;
+                --j: 25;
+              "
+              class="animation"
+              >ادمن</a
+            >
+          </div>
+          <div class="logreg-link animation" style="--i: 7; --j: 27">
+            <p>
+              ليس لديك حساب ؟
+              <a href="#" class="register-link animation">سجل الأن</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="info-text login">
+        <h2 class="animation" style="--i: 0; --j: 20">
+          اهلا بك في أكلتنا الحلوة
+        </h2>
+      </div>
+
+      <div class="form-box register">
+        <h4 class="animation" style="--i: 17; --j: 0">!!مرحبا جديد هنا</h4>
+        <form action="#">
+          <div class="input-box animation" style="--i: 18; --j: 1">
+            <input type="text" required />
+            <label>اسم المستخدم</label>
+            <!-- boxicons.com -->
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-box animation" style="--i: 19; --j: 2">
+            <input type="email" required />
+            <label>بريدك الالكتروني</label>
+            <i class="bx bxs-envelope"></i>
+          </div>
+          <div class="input-box animation" style="--i: 20; --j: 3">
+            <input type="password" required />
+            <label>كلمه السر</label>
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <button type="submit" class="btn animation" style="--i: 21; --j: 4">
+            سجل الأن
+          </button>
+          <div class="logreg-link animation" style="--i: 22; --j: 5">
+            <p>
+              عضو بالفعل ؟
+              <a href="#" class="login-link animation">تسجيل الدخول</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="info-text register">
+        <h2 class="animation" style="--i: 17; --j: 0">أكلتنا الحلوة</h2>
+        <h3 class="animation" style="--i: 18; --j: 1; color: #fff">
+          افضل المأكولات الشعبية والبحرية والوجبات السريعة
+        </h3>
+      </div>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
