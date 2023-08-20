@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="admin.css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <section id="sidebar">
+      <a href="#" class="brand"><i class="bx bxs-smile icon"></i> admin</a>
+      <ul class="side-menu">
+        <li>
+          <a href="#" class="active"
+            ><i class="bx bxs-dashboard icon"></i> dashboard</a
+          >
+        </li>
+        <li class="divider" data-text="main">main</li>
+        <li>
+          <a href="#"
+            ><i class="bx bxs-inbox icon"></i> elements
+            <i class="bx bx-chevron-right icon-right"></i
+          ></a>
+          <ul class="side-dropdown">
+            <li><a href="#">alert</a></li>
+            <li><a href="#">badges</a></li>
+            <li><a href="#">breadcrumbs</a></li>
+            <li><a href="#">button</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="bx bxs-chart icon"></i> charts</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bxs-widget icon"></i> widgets</a>
+        </li>
+        <li class="divider" data-text="table and forms">table and forms</li>
+        <li>
+          <a href="#"><i class="bx bx-table icon"></i> tables</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="bx bxs-notepad icon"></i> forms
+            <i class="bx bx-chevron-right icon-right"></i
+          ></a>
+          <ul class="side-dropdown">
+            <li><a href="#">Basic</a></li>
+            <li><a href="#">Select</a></li>
+            <li><a href="#">Checkbox</a></li>
+            <li><a href="#">Radio</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="ads">
+        <div class="wrapper">
+          <a href="#" class="btn-upgrade">upGrade</a>
+          <p>
+            become a <span>PRO</span> member and enjoy <span>all Features</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="content">
+      <nav>
+        <i class="bx bx-menu toggle-sidebar"></i>
+        <form action="#">
+          <div class="form-group">
+            <input type="text" placeholder="Search....." />
+            <i class="bx bx-search icon"></i>
+          </div>
+        </form>
+        <a href="#" class="nav-link">
+          <i class="bx bxs-bell icon"></i>
+          <span class="badge">0</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="bx bxs-message-square-dots icon"></i>
+          <span class="badge">0</span>
+        </a>
+        <span class="divider"></span>
+        <div class="profile">
+          <img src="IMG.jpg" alt="" />
+          <ul class="profile-link">
+            <li>
+              <a href="#"><i class="bx bxs-user-circle icon"></i> profile</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-cog"></i> settings</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-log-out-circle"></i> logOut</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+        <h1 class="title">dashboard</h1>
+        <ul class="breadcrumbs">
+          <li><a href="#">home</a></li>
+          <li class="divider">/</li>
+          <li><a href="#" class="active">dashboard</a></li>
+        </ul>
+        <div class="info-data">
+          <div class="card">
+            <div class="head">
+              <div>
+                <h2>2000</h2>
+                <p>People</p>
+              </div>
+              <i class="bx bx-trending-up icon"></i>
+            </div>
+            <span class="progress" data-value="40%"></span>
+            <span class="label">50%</span>
+          </div>
+          <div class="card">
+            <div class="head">
+              <div>
+                <h2>413</h2>
+                <p>Sales</p>
+              </div>
+              <i class="bx bx-trending-down icon down"></i>
+            </div>
+            <span class="progress" data-value="60%"></span>
+            <span class="label">60%</span>
+          </div>
+          <div class="card">
+            <div class="head">
+              <div>
+                <h2>356</h2>
+                <p>Pageviews</p>
+              </div>
+              <i class="bx bx-trending-up icon"></i>
+            </div>
+            <span class="progress" data-value="30%"></span>
+            <span class="label">33%</span>
+          </div>
+        </div>
+        <div class="data">
+          <div class="content-data">
+            <div class="head">
+              <h3>Sales Report</h3>
+              <div class="menu">
+                <i class="bx bx-dots-horizontal-rounded icon"></i>
+                <ul class="menu-link">
+                  <li><a href="#">edit</a></li>
+                  <li><a href="#">save</a></li>
+                  <li><a href="#">remove</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="chart">
+              <div id="chart">
+                <img
+                  src="financial-charts-and-graphs-sales-report-on-paper-FB44DH.jpg"
+                  alt=""
+                  style="width: 500px; height: 500px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="content-data">
+            <div class="head">
+              <h3>chatBox</h3>
+              <div class="menu">
+                <i class="bx bx-dots-horizontal-rounded icon"></i>
+                <ul class="menu-link">
+                  <li><a href="#">edit</a></li>
+                  <li><a href="#">save</a></li>
+                  <li><a href="#">remove</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="chat-box">
+              <p class="day"><span>today</span></p>
+              <div class="msg">
+                <img src="IMG.jpg" alt="" />
+                <div class="chat">
+                  <div class="profile">
+                    <span class="username">Rose</span>
+                    <span class="time">18:30</span>
+                  </div>
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="msg me">
+                <div class="chat">
+                  <div class="profile">
+                    <span class="time">20:30</span>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Consectetur voluptates ut quis quae, quidem obcaecati.
+                  </p>
+                </div>
+              </div>
+              <div class="msg me">
+                <div class="chat">
+                  <div class="profile">
+                    <span class="time">19:30</span>
+                  </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis, quae?
+                  </p>
+                </div>
+              </div>
+              <div class="msg me">
+                <div class="chat">
+                  <div class="profile">
+                    <span class="time">18:30</span>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+
+              <div class="msg me">
+                <div class="chat">
+                  <div class="profile">
+                    <span class="time">17:30</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+            <form action="#">
+              <div class="form-group">
+                <input type="text" placeholder="Type....." />
+                <button type="submit" class="btn-send">
+                  <i class="bx bxs-send"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="admin.js"></script>
+  </body>
+</html>

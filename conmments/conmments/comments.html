@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="comments.css" />
+  </head>
+  <body>
+    <div class="card p-4 w-100" style="direction: rtl">
+      <h2
+        style="
+          margin-top: 20px;
+          margin-right: 20px;
+          color: antiquewhite;
+          border-bottom: 2px solid red;
+          padding: 8px;
+        "
+      >
+        التعليقات
+      </h2>
+
+      <div class="hr">
+        <h4 style="margin-right: 600px; color: antiquewhite">اترك تعليقا</h4>
+      </div>
+
+      <div class="alert alert-danger w-75 my-2 mx-3" role="alert">
+        لن يتم نشر عنوان بريدك الالكتروني الحقول الالتزاميه مشار اليها ب *
+      </div>
+
+      <div class="form-groub w-100 m-auto">
+        <label
+          style="margin-bottom: 5px; margin-right: 30px; color: beige"
+          for=""
+          >تعليق</label
+        >
+        <textarea
+          class="form-control w-75"
+          style="margin-right: 10px"
+          name=""
+          id=""
+          cols="0"
+          rows="0"
+          placeholder="اكتب تعليقك هنا
+..."
+        ></textarea>
+      </div>
+
+      <div class="form-groub w-100 m-auto">
+        <label
+          style="
+            margin-bottom: 5px;
+            margin-right: 30px;
+            font-weight: 30px;
+            color: beige;
+          "
+          for=""
+        >
+          الاسم<span style="color: red; font-size: 30px">*</span></label
+        >
+        <input
+          class="form-control w-75"
+          style="margin-right: 10px"
+          type="text"
+        />
+      </div>
+
+      <div class="form-groub w-100 mx-auto my-auto">
+        <label
+          style="margin-bottom: 5px; margin-right: 30px; color: beige"
+          for=""
+        >
+          البريدالالكتروني
+          <span style="color: red; font-size: 30px">*</span></label
+        >
+        <input
+          style="margin-right: 10px"
+          class="form-control w-75"
+          type="text"
+        />
+      </div>
+
+      <div style="margin-right: 500px">
+        <a href="#">
+          <button
+            style="
+              background-color: rgb(192, 197, 197);
+              width: 100px;
+              height: 40px;
+              border: none;
+            "
+          >
+            ارسال التعليق
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_2.11.8_umd_popper.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_jquery_3.7.0_jquery.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_bootstrap_5.3.0_js_bootstrap.min.js"></script>
+  </body>
+</html>

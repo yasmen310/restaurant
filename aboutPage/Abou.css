@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.about {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(7, 7, 7); */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("image/img.jfif");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  width: 50%;
+  height: 100vh;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.main h1 {
+  font-size: xx-large;
+  color: white;
+  margin: 140px 0 20px 0;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  /* left: 120%; */
+  transition: left 1s 0.5s;
+}
+.main .all-text span {
+  color: rgb(30, 255, 0);
+}
+
+/* .about:hover .main h1 {
+  left: 0;
+} */
+.btn button {
+  width: 150px;
+  height: 40px;
+  background-color: greenyellow;
+  border: 1px solid white;
+  font-size: large;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.main p {
+  color: white;
+  font-weight: 200px;
+  line-height: 23px;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  /* left: 120%; */
+  transition: left 1s 1s;
+}
+/* .about:hover .main p {
+  left: 0;
+} */
+.main .btn button {
+  padding: 10px 0;
+  margin: 0;
+  position: relative;
+  /* left: 120%; */
+  transition: left 1s 1.5s;
+}
+/* .about:hover .main .btn button {
+  left: 0;
+} */
+.IMGDIV {
+  position: relative;
+  margin-right: 40px;
+}
+.IMG {
+  width: 400px;
+  height: 450px;
+  border-radius: 70px;
+  margin-left: 90px;
+}
+.IMGDIV .Rname {
+  position: absolute;
+  top: 370px;
+  left: 150px;
+  color: rgb(233, 137, 12);
+  font-weight: 600;
+  font-size: 50px;
+}
